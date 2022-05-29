@@ -14,7 +14,7 @@
       <section class="sched">
         <h3 class="sched__title">Add Item</h3>
         <div class="task">
-          <input id="task__new" class="task__name" type="text">
+          <input id="task__new" class="task__name-inp" type="text">
           <button class="task__btn task__btn-add">Add</button>
         </div>
       </section>
@@ -23,17 +23,17 @@
         <ul class="sched__task-list" id="sched__incompl-list">
           <li class="task">
             <input class="task__check" type="checkbox">
-            <label class="task__name">Pay Bills</label>
-            <input  class="task__name" type="text">
+            <label class="task__name-lbl">Pay Bills</label>
+            <input  class="task__name-inp" type="text">
             <button class="task__btn task__btn-edit">Edit</button>
-            <button class="task__btn task__btn-del"><img src="./remove.svg" alt="remove"></button>
+            <button class="task__btn task__btn-del"><img class="btn-del__img" src="./remove.svg" alt="remove"></button>
           </li>
           <li class="task task__editing">
             <input class="task__check" type="checkbox">
-            <label class="task__name">Go Shopping</label>
-            <input class="task__name" type="text" value="Go Shopping">
+            <label class="task__name-lbl">Go Shopping</label>
+            <input class="task__name-inp" type="text" value="Go Shopping">
             <button class="task__btn task__btn-edit">Save</button>
-            <button class="task__btn task__btn-del"><img src="./remove.svg" alt="remove"></button>
+            <button class="task__btn task__btn-del"><img class="btn-del__img" src="./remove.svg" alt="remove"></button>
           </li>
         </ul>
       </section>
@@ -42,10 +42,10 @@
         <ul class="sched__task-list" id="sched__compl-list">
           <li class="task">
             <input class="task__check" type="checkbox" checked>
-            <label class="task__name">See the Doctor</label>
-            <input type="text" class="task__name">
+            <label class="task__name-lbl">See the Doctor</label>
+            <input class="task__name-inp" type="text" >
             <button class="task__btn task__btn-edit">Edit</button>
-            <button class="task__btn task__btn-del"><img src="./remove.svg" alt="remove"></button>
+            <button class="task__btn task__btn-del"><img class="btn-del__img" src="./remove.svg" alt="remove"></button>
           </li>
         </ul>
       </section>
