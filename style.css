@@ -34,13 +34,13 @@
   margin: 0 auto 0;
 }
 
-.block__task {
+.schedule__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.block__item {
+.schedule__item {
   display: flex;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 }
 
 /* Heading */
-.block__title {
+.schedule__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,12 +101,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.block__title {
+.schedule__title {
   display: block;
   margin: 0 0 20px;
 }
 
-input#block__new-task {
+input#schedule__new-task {
   width: 318px;
 }
 
@@ -150,7 +150,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#block__completed label {
+ul#schedule__completed label {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +160,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.schedule__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.schedule__edit-mode label {
   display: none;
 }
