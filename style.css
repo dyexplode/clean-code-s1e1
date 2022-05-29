@@ -34,13 +34,13 @@
   margin: 0 auto 0;
 }
 
-.schedule__task {
+.task__name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.schedule__item {
+.task {
   display: flex;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 }
 
 /* Heading */
-.schedule__title {
+.sched__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,12 +101,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.schedule__title {
+.sched__title {
   display: block;
   margin: 0 0 20px;
 }
 
-input#schedule__new-task {
+input#task__new {
   width: 318px;
 }
 
@@ -150,7 +150,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#schedule__completed label {
+ul#sched__compl-list label {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +160,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.schedule__edit-mode input[type=text] {
+ul li.task__editing input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.schedule__edit-mode label {
+ul li.task__editing label {
   display: none;
 }
