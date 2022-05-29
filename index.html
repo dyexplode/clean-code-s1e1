@@ -11,41 +11,41 @@
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="content">
-      <section class="schedule">
-        <h3 class="schedule__title">Add Item</h3>
-        <div class="schedule__item">
-          <input id="schedule__new-task" class="schedule__task" type="text">
-          <button class="schedule__button schedule__button-add">Add</button>
+      <section class="sched">
+        <h3 class="sched__title">Add Item</h3>
+        <div class="task">
+          <input id="task__new" class="task__name" type="text">
+          <button class="task__btn task__btn-add">Add</button>
         </div>
       </section>
-      <section class="schedule">
-        <h3 class="schedule__title">Todo</h3>
-        <ul class="schedule__list" id="schedule__incomplete">
-          <li class="schedule__item">
-            <input class="schedule__check" type="checkbox">
-            <label class="schedule__task">Pay Bills</label>
-            <input type="text" class="schedule__task">
-            <button class="schedule__button schedule__button-edit">Edit</button>
-            <button class="schedule__button schedule__button-delete"><img src="./remove.svg" alt="remove"></button>
+      <section class="sched">
+        <h3 class="sched__title">Todo</h3>
+        <ul class="sched__task-list" id="sched__incompl-list">
+          <li class="task">
+            <input class="task__check" type="checkbox">
+            <label class="task__name">Pay Bills</label>
+            <input  class="task__name" type="text">
+            <button class="task__btn task__btn-edit">Edit</button>
+            <button class="task__btn task__btn-del"><img src="./remove.svg" alt="remove"></button>
           </li>
-          <li class="schedule__item schedule__edit-mode">
-            <input class="schedule__check" type="checkbox">
-            <label class="schedule__task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="schedule__task">
-            <button class="schedule__button schedule__button-edit">Save</button>
-            <button class="schedule__button schedule__button-delete"><img src="./remove.svg" alt="remove"></button>
+          <li class="task task__editing">
+            <input class="task__check" type="checkbox">
+            <label class="task__name">Go Shopping</label>
+            <input class="task__name" type="text" value="Go Shopping">
+            <button class="task__btn task__btn-edit">Save</button>
+            <button class="task__btn task__btn-del"><img src="./remove.svg" alt="remove"></button>
           </li>
         </ul>
       </section>
-      <section class="schedule">
-        <h3 class="schedule__title">Completed</h3>
-        <ul class="schedule__list" id="schedule__completed">
-          <li class="schedule__item">
-            <input class="schedule__check" type="checkbox" checked>
-            <label class="schedule__task">See the Doctor</label>
-            <input type="text" class="schedule__task">
-            <button class="schedule__button schedule__button-edit">Edit</button>
-            <button class="schedule__button schedule__button-delete"><img src="./remove.svg" alt="remove"></button>
+      <section class="sched">
+        <h3 class="sched__title">Completed</h3>
+        <ul class="sched__task-list" id="sched__compl-list">
+          <li class="task">
+            <input class="task__check" type="checkbox" checked>
+            <label class="task__name">See the Doctor</label>
+            <input type="text" class="task__name">
+            <button class="task__btn task__btn-edit">Edit</button>
+            <button class="task__btn task__btn-del"><img src="./remove.svg" alt="remove"></button>
           </li>
         </ul>
       </section>
