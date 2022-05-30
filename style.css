@@ -121,7 +121,7 @@ button {
 }
 
 .task_new {
-  bottom: none;
+  border-bottom: none;
 }
 
 .task > * {
