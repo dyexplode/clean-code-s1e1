@@ -120,6 +120,10 @@ button {
   align-items: center;
 }
 
+.task_new {
+  border-bottom: none;
+}
+
 .task > * {
   vertical-align: middle;
 }
